@@ -30,10 +30,11 @@ public class GameManager : MonoBehaviour
     public Transform cameraObj;
     public TextMeshProUGUI txtScore;
 
-
-    private int _camID = 0;
+    [Header("Misc")]
 
     public int score = 0;
+
+    private int _camID = 0;
 
 
     private int bestScore = 0;
